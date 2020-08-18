@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background: #ff4c6d;
+  color: #fff;
+  /* overflow: hidden; */
+}
+.container {
+  margin: 3rem auto;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.download-btn {
+  margin: 3% 5% 5% 0;
+}
+
+/* title image */
+
+.iphone-img {
+  width: 60%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 25%;
+}
+
+/* features */
+#features {
+  position: relative;
+  padding: 7% 15%;
+  text-align: center;
+  background: #fff;
+}
+#features > div div {
+  padding: 4.5%;
+}
+#features i {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features i:hover {
+  color: #ff4c6d;
+}
+
+#feature h3 {
+  font-weight: bolder;
+}
+
+/* testimonials section */
+
+#testimonials {
+  background: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 1.4rem;
+}
+#testimonials em {
+  display: block;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section*/
+#press {
+  text-align: center;
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 8rem;
+}
+.card {
+  margin: 3rem auto;
+}
+.card button,
+.card-header {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+/* cta */
+#cta {
+  background: #ff4c6d;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+#cta h3 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer styles */
+
+footer {
+  text-align: center;
+  padding: 5% 17%;
+}
+
+.social i {
+  margin: 1rem 0.5rem;
+}
+
+/* media queries */
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  #title {
+    text-align: center;
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+    margin: auto;
+    width: 40%;
+  }
+  #pricing {
+    padding: 8rem 1rem;
+  }
+  #cta h3 {
+    font-size: 2.5rem;
+  }
+}
